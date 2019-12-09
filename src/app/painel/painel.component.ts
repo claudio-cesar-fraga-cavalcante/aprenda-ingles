@@ -40,12 +40,12 @@ export class PainelComponent implements OnInit {
       alert('A traudução está errada')
     }
 
-    // limpar resposta
-    this.resposta = ""
   }
 
   public atualizaRodada(): void {
     this.rodadaFrase = this.frases[this.rodada]
+    // limpar resposta
+    this.resposta = ""
   }
 
   ngOnInit() {
