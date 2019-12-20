@@ -44,7 +44,6 @@ export class PainelComponent implements OnInit, OnDestroy {
     }
     else {
       // diminuir a variável tentativa
-      alert('A tradução está errada')
       this.tentativas--
       // Perdeu todas tentativas
       if (this.tentativas === -1) {
